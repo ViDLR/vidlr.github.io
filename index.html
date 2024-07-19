@@ -3,35 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Page</title>
+    <title>ViDLR's GitHub Pages Site</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-    	<img src="images/banner.jpg" alt="Drone Banner" class="banner">
-        <h1>Welcome to My Page</h1>
+        <img src="images/banner.jpg" alt="Drone Banner" class="banner">
+        <h1 id="title">Welcome to my page ! </h1>
     </header>
     <nav>
         <ul class="menu">
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about" id="menu-about">About Me</a></li>
+            <li><a href="#projects" id="menu-projects">Projects</a></li>
+            <li><a href="#contact" id="menu-contact">Contact</a></li>
             <li class="dropdown">
                 <a href="javascript:void(0)" class="dropbtn">Downloads</a>
                 <div class="dropdown-content">
-                    <!-- <a href="documents/CV2024.pdf" target="_blank">Download my CV</a> -->
+                    <!-- <a href="cv/ViDLR_CV.pdf" target="_blank">Download my CV</a> -->
+                    <!-- <a href="letters/recommendation1.pdf" target="_blank">Download Recommendation Letter 1</a>
+                    <a href="letters/recommendation2.pdf" target="_blank">Download Recommendation Letter 2</a> -->
                 </div>
             </li>
         </ul>
+        <div class="language-selector">
+            <label for="language">Language: </label>
+            <select id="language" onchange="changeLanguage()">
+                <option value="en">English</option>
+                <option value="fr">French</option>
+                <option value="jp">Japanese</option>
+            </select>
+        </div>
     </nav>
     <main>
-        <section>
-            <h2>About Me</h2>
-            <!-- <p>Hello! My name is Virgile de La Rochefoucauld, and I am passionate about robotics, trans-media agents and multi-robot systems. I am currently pursuing a double degree PhD program between Japan and France, where I have the opportunity to work on cutting-edge research in robotics and AI planning.</p>
-            <p>I specialize in developing autonomous systems capable of handling high-complexity missions. My current research focuses on creating a modular framework for trans-media multi-robot mission planning and execution.</p>
-            <p>Throughout my academic journey, I have been fortunate to collaborate with esteemed researchers and institutions, including presenting my work at IROS 2024. My dedication to advancing robotics technology is driven by the potential to solve real-world problems, improve quality of life and efficiency.</p>
-            <p>In addition to my academic pursuits, I enjoy hiking and exploring historical places. I have a German Shepherd Husky mix dog who accompanies me on my outdoor adventures. Always eager to learn and share knowledge.</p>
-            <p>Feel free to explore my projects and get in touch with me if you share similar interests or have any questions ! </p> -->
+        <section id="about">
+            <h2 id="about-title">About Me</h2>
+            <p id="about-content">Hello! My name is Virgile de La Rochefoucauld, and I am passionate about robotics and trans-media multi-robot systems. I am currently pursuing a double degree program between Japan and France, where I have the opportunity to work on cutting-edge research in robotics and artificial intelligence.</p>
         </section>
         <section>
             <h2>Projects</h2>
@@ -41,13 +47,13 @@
             </ul>
         </section>
         <section id="contact">
-            <h2>Contact</h2>
-            <p>Ways to reach me !</p>
+            <h2 id="contact-title">Contact</h2>
+            <p id="contact-content">Ways to get in touch with me.</p>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Virgile de La Rochefoucauld</p>
+        <p>&copy; 2024 ViDLR</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
-
