@@ -13,7 +13,7 @@ header {
 
 .banner {
     width: 100%; /* Adjust the width to fit the container */
-    height: 300px; /* Set the height to your desired value */
+    height: 500px; /* Set the height to your desired value */
     object-fit: cover; /* This ensures the image covers the entire area without distortion */
 }
 
