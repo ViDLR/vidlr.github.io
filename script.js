@@ -54,5 +54,6 @@ function changeLanguage() {
 
 // Set the default language to English on page load
 document.addEventListener("DOMContentLoaded", () => {
-    changeLanguage
+    changeLanguage();
+});
 
