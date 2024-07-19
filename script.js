@@ -1,7 +1,6 @@
-// script.js
 const translations = {
     en: {
-        title: "Welcome to my page !",
+        title: "Welcome to ViDLR's GitHub Pages Site",
         menuAbout: "About Me",
         menuProjects: "Projects",
         menuContact: "Contact",
@@ -9,12 +8,12 @@ const translations = {
         aboutTitle: "About Me",
         aboutContent: "Hello! My name is Virgile de La Rochefoucauld, and I am passionate about robotics and trans-media multi-robot systems. I am currently pursuing a double degree program between Japan and France, where I have the opportunity to work on cutting-edge research in robotics and artificial intelligence.",
         projectsTitle: "Projects",
-        projectsContent: "Details about your projects and links to their repositories.",
+        projectsContent: "Details about projects and links to their repositories.",
         contactTitle: "Contact",
         contactContent: "Ways to get in touch with you."
     },
     fr: {
-        title: "Bienvenue sur le ma page !",
+        title: "Bienvenue sur le site GitHub Pages de ViDLR",
         menuAbout: "À propos de moi",
         menuProjects: "Projets",
         menuContact: "Contact",
@@ -22,12 +21,12 @@ const translations = {
         aboutTitle: "À propos de moi",
         aboutContent: "Bonjour! Je m'appelle Virgile de La Rochefoucauld et je suis passionné par la robotique et les systèmes multi-robots trans-média. Je poursuis actuellement un programme de double diplôme entre le Japon et la France, où j'ai l'opportunité de travailler sur des recherches de pointe en robotique et en intelligence artificielle.",
         projectsTitle: "Projets",
-        projectsContent: "Détails sur vos projets et liens vers leurs dépôts.",
+        projectsContent: "Détails sur les projets et liens vers leurs dépôts.",
         contactTitle: "Contact",
         contactContent: "Moyens de vous contacter."
     },
     jp: {
-        title: "私のページへようこそ",
+        title: "ViDLRのGitHubページへようこそ",
         menuAbout: "私について",
         menuProjects: "プロジェクト",
         menuContact: "連絡先",
@@ -35,7 +34,7 @@ const translations = {
         aboutTitle: "私について",
         aboutContent: "こんにちは！私はヴィルジル・ド・ラ・ロシュフォコーで、ロボティクスとトランスメディアマルチロボットシステムに情熱を持っています。現在、私は日本とフランスの間でダブルディグリープログラムを追求しており、ロボティクスと人工知能の最先端研究に取り組む機会を得ています。",
         projectsTitle: "プロジェクト",
-        projectsContent: "あなたのプロジェクトに関する詳細とそのリポジトリへのリンク。",
+        projectsContent: "プロジェクトの詳細とリポジトリへのリンク。",
         contactTitle: "連絡先",
         contactContent: "連絡方法。"
     }
@@ -56,7 +55,6 @@ function changeLanguage() {
     document.getElementById("contact-content").textContent = translations[language].contactContent;
 }
 
-// Set the default language to English on page load
 document.addEventListener("DOMContentLoaded", () => {
     changeLanguage();
 });
