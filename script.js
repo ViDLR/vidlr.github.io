@@ -56,4 +56,3 @@ function changeLanguage() {
 document.addEventListener("DOMContentLoaded", () => {
     changeLanguage();
 });
-
