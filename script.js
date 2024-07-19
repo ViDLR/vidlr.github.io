@@ -19,7 +19,7 @@ const translations = {
         menuContact: "Contact",
         menuDownload: "Téléchargements",
         aboutTitle: "À propos de moi",
-        aboutContent: "Bonjour ! Je m'appelle Virgile de La Rochefoucauld, et je suis passionné par la robotique et les systèmes multi-robots trans-médias. Je poursuis actuellement un programme de doctorat à double diplôme entre le Japon et la France, où j'ai l'opportunité de travailler sur des recherches de pointe en robotique et en intelligence artificielle.",
+        aboutContent: "Bonjour ! Je m'appelle Virgile de La Rochefoucauld, et je suis passionné par la robotique et les systèmes multi-robots trans-médias. Je poursuis actuellement un programme de doctorat en double diplôme entre le Japon et la France, où j'ai l'opportunité de travailler sur des recherches de pointe en robotique et en intelligence artificielle.",
         projectsTitle: "Projets",
         projectsContent: "Détails sur les projets et liens vers leurs dépôts.",
         contactTitle: "Contact",
