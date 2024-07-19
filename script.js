@@ -57,6 +57,8 @@ function changeLanguage() {
     document.getElementById("about-content").textContent = translations[language].aboutContent;
     document.getElementById("projects-title").textContent = translations[language].projectsTitle;
     document.getElementById("projects-content").textContent = translations[language].projectsContent;
+    document.getElementById("project1").textContent = translations[language].project1;
+    document.getElementById("project2").textContent = translations[language].project2;
     document.getElementById("contact-title").textContent = translations[language].contactTitle;
     document.getElementById("contact-content").textContent = translations[language].contactContent;
 }
