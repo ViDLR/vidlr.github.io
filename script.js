@@ -12,7 +12,7 @@ const translations = {
         project1: "Infrared pattern and client identification with Computer Vision for Sysmex Corporation",
         project2: "End of master degree project on drone and mobile robot search and rescue cooperation",
         contactTitle: "Contact",
-        contactContent: "Ways to get in touch with you."
+        contactContent: "Ways to get in touch with me."
     },
     fr: {
         title: "Bienvenue sur le site GitHub Pages de ViDLR",
@@ -27,7 +27,7 @@ const translations = {
         project1: "Identification de motif infrarouge et client avec Vision par Ordinateur pour Sysmex Corporation",
         project2: "Projet de fin de master sur la coopération entre drones et robots mobiles pour la recherche et le sauvetage",
         contactTitle: "Contact",
-        contactContent: "Moyens de vous contacter."
+        contactContent: "Moyens de me contacter."
     },
     jp: {
         title: "私のページへようこそ",
