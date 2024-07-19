@@ -3,27 +3,37 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
     text-align: center;
     color: white;
     text-shadow: 2px 2px 4px #000000;
+    position: relative;
+    overflow: hidden;
 }
 
 .banner {
     width: 100%; /* Adjust the width to fit the container */
-    height: 500px; /* Set the height to your desired value */
-    object-fit: cover; /* This ensures the image covers the entire area without distortion */
+    height: 500px; /* Set the height to a smaller value to look like a banner */
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
 }
 
 header h1 {
     margin: 0;
     padding: 20px 0;
     background-color: rgba(0, 0, 0, 0.5); /* Optional: Adds a semi-transparent background to the text */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 main {
+    flex: 1;
     padding: 20px;
 }
 
@@ -36,8 +46,5 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
 }
 
