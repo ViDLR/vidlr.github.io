@@ -12,8 +12,18 @@ const translations = {
         projectsContent: "Details about my projects and links to their repositories.",
         project1: "Infrared pattern and client identification with Computer Vision for Sysmex Corporation",
         project1description: "Created an infrared pattern vein image recognition system for client identification using computer vision. Technologies used: OpenCV, C++, Machine Learning.",
+        project1media1caption: "Simulation of collaboration with drone and mobile robot in SAR mission",
+        project1media2caption: "Mobile and drone agents",
+        project1media3caption: "Simulated environment on Gazebo",
         project2: "End of master degree project on drone and mobile robot search and rescue cooperation",
         project2description: "Managed a team of 7 students to create a cooperative system using algorithms for coordination and communication between robots in 2 months. Technologies used: OpenCV, Python, C++, ROS.",
+        project2media1caption: "Process to acquire vein pattern data",
+        project2media2caption: "A random example of fingervein pattern",
+        project3description: "Construction of AUV with hydraulic grapping arm and teleoperation",
+        project4description: "multi-agents mobile robot patrolling scenario simulation and control",
+        project5description: "Localization and mapping with fusion of data from Stereo camera SLAM and IMU for complex base-varying mobile robot",
+        project6description: "SLAM and path planning for building mapping in the context of MBZIRC 2020 with TakemuraLab team from Osaka University",
+        iros2024: "IROS2024 - Solving Multi-Robot Task Allocation and Planning in Trans-media Scenarios - Abstracting and restructuring MRTA problems to solve complex trans-media automated planning missions",
         contactTitle: "Contact",
         contactContent: "Ways to get in touch with me.",
         contactGithub: "GitHub",
@@ -34,8 +44,18 @@ const translations = {
         projectsContent: "Détails sur mes projets et liens vers leurs dépôts.",
         project1: "Identification de motif infrarouge et client avec Vision par Ordinateur pour Sysmex Corporation",
         project1description: "Création d'un système de reconnaissance d'images infrarouges pour l'identification des clients à l'aide de la vision par ordinateur. Technologies utilisées : OpenCV, C++, apprentissage machine.",
+        project1media1caption: "Simulation de la collaboration entre un drone et un robot mobile dans le cadre d'une mission RES",
+        project1media2caption: "Agents mobiles et drones ",
+        project1media3caption: "Environnement simulé sur Gazebo",
         project2: "Projet de fin de master sur la coopération entre drones et robots mobiles pour la recherche et le sauvetage",
         project2description: "Gestion d'une équipe de 7 étudiants pour créer un système coopératif utilisant des algorithmes de coordination et de communication entre robots en 2 mois. Technologies utilisées : OpenCV, Python, C++, ROS.",
+        project2media1caption: "Processus d'acquisition de données sur les veines",
+        project2media2caption: "Un exemple aléatoire de motif de veine de doigt",
+        project3description: "Construction d'un AUV avec bras de préhension hydraulique et téléopération",
+        project4description: "Simulation et contrôle d'un scénario de patrouille de robots mobiles multi-agents ",
+        project5description: "Localisation et cartographie avec fusion des données de la caméra stéréo SLAM et de l'IMU pour un robot mobile complexe à base variable",
+        project6description: "SLAM et planification de trajectoire pour la cartographie de bâtiments dans le contexte de MBZIRC 2020 avec l'équipe TakemuraLab de l'université d'Osaka,",
+        iros2024: "IROS2024 - Solving Multi-Robot Task Allocation and Planning in Trans-media Scenarios - Abstraction et restructuration des problèmes MRTA pour résoudre des missions complexes de planification automatisée trans-médias.",
         contactTitle: "Contact",
         contactContent: "Moyens de me contacter.",
         contactGithub: "GitHub",
@@ -56,8 +76,18 @@ const translations = {
         projectsContent: "私のプロジェクトの詳細とリポジトリへのリンク。",
         project1: "シスメックス株式会社のコンピュータビジョンによる赤外線パターンとクライアント識別",
         project1description: "コンピュータ・ビジョンによる顧客識別のための赤外線パターン静脈画像認識システムを開発。使用した技術 OpenCV、C++、機械学習。",
+        project1media1caption: "SARミッションにおけるドローンと移動ロボットの連携シミュレーション",
+        project1media2caption: "モバイルエージェントとドローンエージェント",
+        project1media3caption: "Gazebo上のシミュレーション環境",
         project2: "ドローンとモバイルロボットの捜索救助協力に関する修士学位プロジェクト",
         project2description: "7人の学生からなるチームを管理し、2ヶ月間でロボット間の協調と通信のためのアルゴリズムを使用した協調システムを作成。使用した技術 OpenCV、Python、C++、ROS。",
+        project2media1caption: "静脈パターンデータの取得プロセス",
+        project2media2caption: "指静脈パターンのランダムな例",
+        project3description: "油圧グラッピングアームと遠隔操作によるAUVの構築",
+        project4description: "複数のエージェントによる移動ロボットのパトロールシナリオのシミュレーションと制御",
+        project5description: "ステレオカメラSLAMとIMUのフュージョンによる複雑なベース変動移動ロボットのローカライゼーションとマッピング",
+        project6description: "大阪大学竹村研究室チームとのMBZIRC2020における建物マッピングのためのSLAMとパスプランニング",
+        iros2024: "IROS2024 - Solving Multi-Robot Task Allocation and Planning in Trans-media Scenarios - - 複雑なトランスメディア自動プランニングミッションを解決するためのMRTA問題の抽象化と再構築",
         contactTitle: "連絡先",
         contactContent: "連絡方法。",
         contactGithub: "GitHub",
@@ -81,8 +111,18 @@ function changeLanguage() {
     document.getElementById("projects-content").textContent = translations[language].projectsContent;
     document.getElementById("project1").textContent = translations[language].project1;
     document.getElementById("project1-description").textContent = translations[language].project1description;
+    document.getElementById("project1-media1-caption").textContent = translations[language].project1media1caption;
+    document.getElementById("project1-media2-caption").textContent = translations[language].project1media2caption;
+    document.getElementById("project1-media3-caption").textContent = translations[language].project1media3caption;
     document.getElementById("project2").textContent = translations[language].project2;
     document.getElementById("project2-description").textContent = translations[language].project2description;
+    document.getElementById("project2-media1-caption").textContent = translations[language].project2media1caption;
+    document.getElementById("project2-media2-caption").textContent = translations[language].project2media2caption;
+    document.getElementById("project3-description").textContent = translations[language].project3description;
+    document.getElementById("project4-description").textContent = translations[language].project4description;
+    document.getElementById("project5-description").textContent = translations[language].project5description;
+    document.getElementById("project6-description").textContent = translations[language].project6description;
+    document.getElementById("IROS2024-description").textContent = translations[language].iros2024;
     document.getElementById("contact-title").textContent = translations[language].contactTitle;
     document.getElementById("contact-content").textContent = translations[language].contactContent;
     document.getElementById("contact-github").textContent = translations[language].contactGithub;
