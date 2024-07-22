@@ -104,7 +104,6 @@ nav {
     color: white;
 }
 
-.profile```css
 .language-selector {
     color: white;
 }
@@ -139,14 +138,51 @@ footer {
     padding: 10px 0;
 }
 
-.video-container {
-    text-align: center;
-    margin: 20px 0;
+.media-container {
+    display: flex;
+    justify-content: space-around; /* Distributes space evenly around each item */
+    align-items: center; /* Vertically aligns items in the middle */
+    margin: 20px 0; /* Adds margin above and below the container */
 }
 
-.video-container video {
-    max-width: 100%;
-    height: auto;
+.media-item {
+    flex: 1; /* Assigns equal space to each item */
+    text-align: center; /* Centers the content of each item */
+    padding: 10px; /* Adds padding around each item for spacing */
+}
+
+.video-wrapper {
+    max-width: 650px; /* Restricts the video's maximum width */
+}
+
+.image1-wrapper {
+    max-width: 200px; /* Restricts the images' maximum width */
+}
+
+.image2-wrapper {
+    max-width: 500px; /* Restricts the images' maximum width */
+}
+
+.image1-wrapper img, .image2-wrapper img, .video-wrapper video {
+    width: 100%; /* Ensures the media fills the available space */
+    height: auto; /* Maintains the aspect ratio */
+}
+
+.image3-wrapper {
+    max-width: 500px; /* Restricts the images' maximum width */
+}
+
+.image4-wrapper {
+    max-width: 500px; /* Restricts the images' maximum width */
+}
+
+.image3-wrapper img, .image4-wrapper img {
+    width: 100%; /* Ensures the media fills the available space */
+    height: auto; /* Maintains the aspect ratio */
+}
+
+.media-item p {
+    margin-top: 8px; /* Adds space between the media and the caption */
 }
 
 #contact-list {
