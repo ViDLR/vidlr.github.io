@@ -202,7 +202,11 @@ footer {
     max-width: 400px; /* Restricts the images' maximum width */
 }
 
-.image12-wrapper img {
+.image13-wrapper {
+    max-width: 600px; /* Restricts the images' maximum width */
+}
+
+.image12-wrapper img, .image13-wrapper img {
     width: 100%; /* Ensures the media fills the available space */
     height: auto; /* Maintains the aspect ratio */
 }

@@ -1,6 +1,6 @@
 const translations = {
     en: {
-        title: "Welcome to My Professional Page !",
+        title: "Welcome !",
         menuAbout: "About Me",
         menuProjects: "Projects",
         menuContact: "Contact",
@@ -21,8 +21,17 @@ const translations = {
         project2media2caption: "A random example of fingervein pattern",
         project3description: "Construction of AUV with hydraulic grapping arm and teleoperation",
         project4description: "multi-agents mobile robot patrolling scenario simulation and control",
+        project4media1caption: "A typical patrolling representation with designated area in a maze",
+        project4media2caption: "The Turtlebot3 burger used in the multi-agents system",
         project5description: "Localization and mapping with fusion of data from Stereo camera SLAM and IMU for complex base-varying mobile robot",
+        project5media1caption: "Testing device used for data fusion trials with IMU and stereo camera",
+        project5media2caption: "Exampe of Output for basic visual stereo SLAM",
         project6description: "SLAM and path planning for building mapping in the context of MBZIRC 2020 with TakemuraLab team from Osaka University",
+        project6media1caption: "Simulated building on Gazebo",
+        project6media2caption: "A representation of the two challenges for the drone",
+        project6media3caption: "Fully equiped drone",
+        project6media4caption: "A representation of the evolution of the exploration following RRT algorithm",
+        project6media5caption: "Testing building in Kobe firestation, Japan",
         iros2024: "IROS2024 - Solving Multi-Robot Task Allocation and Planning in Trans-media Scenarios - Abstracting and restructuring MRTA problems to solve complex trans-media automated planning missions",
         contactTitle: "Contact",
         contactContent: "Ways to get in touch with me.",
@@ -32,7 +41,7 @@ const translations = {
         contactEmail: "Send me an Email"
     },
     fr: {
-        title: "Bienvenue sur ma page professionelle !",
+        title: "Bienvenue !",
         menuAbout: "À propos de moi",
         menuProjects: "Projets",
         menuContact: "Contact",
@@ -53,8 +62,17 @@ const translations = {
         project2media2caption: "Un exemple aléatoire de motif de veine de doigt",
         project3description: "Construction d'un AUV avec bras de préhension hydraulique et téléopération",
         project4description: "Simulation et contrôle d'un scénario de patrouille de robots mobiles multi-agents ",
+        project4media1caption: "Représentation d'une patrouille typique avec une zone désignée dans un labyrinthe",
+        project4media2caption: "Le Turtlebot3 burger utilisé dans le système multi-agents",
         project5description: "Localisation et cartographie avec fusion des données de la caméra stéréo SLAM et de l'IMU pour un robot mobile complexe à base variable",
+        project5media1caption: "Dispositif de test utilisé pour les essais de fusion de données avec IMU et caméra stéréo",
+        project5media2caption: "Exemple de données de sortie pour le SLAM stéréo visuel ",
         project6description: "SLAM et planification de trajectoire pour la cartographie de bâtiments dans le contexte de MBZIRC 2020 avec l'équipe TakemuraLab de l'université d'Osaka,",
+        project6media1caption: "Bâtiment simulé sur Gazebo",
+        project6media2caption: "Représentation des deux défis pour le drone",
+        project6media3caption: "Drone entièrement équipé",
+        project6media4caption: "Représentation de l'évolution de l'exploration suivant l'algorithme RRT",
+        project6media5caption: "Bâtiment d'essai de la caserne de pompiers de Kobe, au Japon",
         iros2024: "IROS2024 - Solving Multi-Robot Task Allocation and Planning in Trans-media Scenarios - Abstraction et restructuration des problèmes MRTA pour résoudre des missions complexes de planification automatisée trans-médias.",
         contactTitle: "Contact",
         contactContent: "Moyens de me contacter.",
@@ -64,7 +82,7 @@ const translations = {
         contactEmail: "Envoyez-moi un e-mail "
     },
     jp: {
-        title: "私のプーロページへようこそ !",
+        title: "ようこそ !",
         menuAbout: "私について",
         menuProjects: "プロジェクト",
         menuContact: "連絡先",
@@ -85,8 +103,17 @@ const translations = {
         project2media2caption: "指静脈パターンのランダムな例",
         project3description: "油圧グラッピングアームと遠隔操作によるAUVの構築",
         project4description: "複数のエージェントによる移動ロボットのパトロールシナリオのシミュレーションと制御",
+        project4media1caption: "迷路の中で指定されたエリアをパトロールする典型的な表現",
+        project4media2caption: "マルチエージェントシステムで使用されているTurtlebot3バーガー",
         project5description: "ステレオカメラSLAMとIMUのフュージョンによる複雑なベース変動移動ロボットのローカライゼーションとマッピング",
+        project5media1caption: "MUとステレオカメラのデータフュージョン実験に使用されたテスト装置",
+        project5media2caption: "基本的なビジュアルステレオSLAMの出力例",
         project6description: "大阪大学竹村研究室チームとのMBZIRC2020における建物マッピングのためのSLAMとパスプランニング",
+        project6media1caption: "Gazeboでシミュレーションされた建物",
+        project6media2caption: "ドローンの2つの課題の表現",
+        project6media3caption: "フル装備のドローン",
+        project6media4caption: "RRTアルゴリズムに従った探査の進化の表現",
+        project6media5caption: "神戸消防署の試験棟（日本",
         iros2024: "IROS2024 - Solving Multi-Robot Task Allocation and Planning in Trans-media Scenarios - - 複雑なトランスメディア自動プランニングミッションを解決するためのMRTA問題の抽象化と再構築",
         contactTitle: "連絡先",
         contactContent: "連絡方法。",
@@ -120,8 +147,17 @@ function changeLanguage() {
     document.getElementById("project2-media2-caption").textContent = translations[language].project2media2caption;
     document.getElementById("project3-description").textContent = translations[language].project3description;
     document.getElementById("project4-description").textContent = translations[language].project4description;
+    document.getElementById("project4-media1-caption").textContent = translations[language].project4media1caption;
+    document.getElementById("project4-media2-caption").textContent = translations[language].project4media2caption;
     document.getElementById("project5-description").textContent = translations[language].project5description;
+    document.getElementById("project5-media1-caption").textContent = translations[language].project5media1caption;
+    document.getElementById("project5-media2-caption").textContent = translations[language].project5media2caption;
     document.getElementById("project6-description").textContent = translations[language].project6description;
+    document.getElementById("project6-media1-caption").textContent = translations[language].project6media1caption;
+    document.getElementById("project6-media2-caption").textContent = translations[language].project6media2caption;
+    document.getElementById("project6-media3-caption").textContent = translations[language].project6media3caption;
+    document.getElementById("project6-media4-caption").textContent = translations[language].project6media4caption;
+    document.getElementById("project6-media5-caption").textContent = translations[language].project6media5caption;
     document.getElementById("IROS2024-description").textContent = translations[language].iros2024;
     document.getElementById("contact-title").textContent = translations[language].contactTitle;
     document.getElementById("contact-content").textContent = translations[language].contactContent;
