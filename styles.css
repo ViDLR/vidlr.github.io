@@ -185,6 +185,52 @@ footer {
     margin-top: 8px; /* Adds space between the media and the caption */
 }
 
+.image6-wrapper {
+    max-width: 400px; /* Restricts the images' maximum width */
+}
+
+.image5-wrapper {
+    max-width: 400px; /* Restricts the images' maximum width */
+}
+
+.image6-wrapper img, .image5-wrapper img {
+    width: 100%; /* Ensures the media fills the available space */
+    height: auto; /* Maintains the aspect ratio */
+}
+
+.image12-wrapper {
+    max-width: 400px; /* Restricts the images' maximum width */
+}
+
+.image12-wrapper img {
+    width: 100%; /* Ensures the media fills the available space */
+    height: auto; /* Maintains the aspect ratio */
+}
+
+.image7-wrapper {
+    max-width: 200px; /* Restricts the images' maximum width */
+}
+
+.image8-wrapper {
+    max-width: 200px; /* Restricts the images' maximum width */
+}
+
+.image9-wrapper {
+    max-width: 200px; /* Restricts the images' maximum width */
+}
+
+.image10-wrapper {
+    max-width: 200px; /* Restricts the images' maximum width */
+}
+.image11-wrapper {
+    max-width: 200px; /* Restricts the images' maximum width */
+}
+
+.image7-wrapper img, .image8-wrapper img, .image9-wrapper img, .image10-wrapper img, .image11-wrapper img {
+    width: 100%; /* Ensures the media fills the available space */
+    height: auto; /* Maintains the aspect ratio */
+}
+
 #contact-list {
     list-style-type: none;
     padding: 0;
